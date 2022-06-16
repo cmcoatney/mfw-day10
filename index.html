@@ -14,7 +14,72 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Main Point</h1>
+    <h1>Responsive Contact Form</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <fieldset>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Please enter your best email"
+                  id="inputEmail"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="textarea" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="textarea"
+                  rows="5"
+                  placeholder="Write your message here."
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="inputTextReadonly" class="form-label"
+                  >Discount Code</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="HSY&736HHH"
+                  id="inputTextReadonly"
+                  readonly=""
+                />
+              </div>
+
+              <div class="mb-3 gap-5 d-flex">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="checkDefault1"
+                  />
+                  <label class="form-check-label" for="checkDefault1"
+                    >Not A Robot</label
+                  >
+                </div>
+                <div class="form-check form-switch">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="switchDefault1"
+                  />
+                  <label class="form-check-label" for="switchDefault1"
+                    >Send me some swag!</label
+                  >
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <section class="footer"></section>
     <script
