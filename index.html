@@ -12,9 +12,65 @@
     />
     <!-- stylesheet placed after bootstrap can extend/override its classes -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/thing.css" />
   </head>
   <body>
-    <h1>Main Point</h1>
+    <div class="container">
+      <div class="bg-text">2022</div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <h1>Object Oriented CSS</h1>
+        </div>
+      </div>
+
+      <div class="row mb-5 gap-5 gap-lg-0">
+        <div class="col-12 col-lg-4">
+          <label for="toggle-purple" class="alert-button">Hide Purple</label>
+          <input type="checkbox" id="toggle-purple" class="visually-hidden" />
+
+          <div class="control-me-purple">
+            <div class="purple-thing">
+              <div class="purple-inner-thing">(Image goes here)</div>
+              <div class="purple-inner-thing-2">Some Caption Text</div>
+              <div class="purple-inner-thing-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                officia minima.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <label for="toggle-red" class="submit-button">Hide Red</label>
+          <input type="checkbox" id="toggle-red" class="visually-hidden" />
+
+          <div class="control-me-red">
+            <div class="red-thing">
+              <div class="red-inner-thing">(Image goes here)</div>
+              <div class="red-inner-thing-2">Some Caption Text</div>
+              <div class="red-inner-thing-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                officia minima.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <label for="toggle-blue" class="danger-button">HideBlue</label>
+          <input type="checkbox" id="toggle-blue" class="visually-hidden" />
+
+          <div class="control-me-blue">
+            <div class="blue-thing">
+              <div class="blue-inner-thing">(Image goes here)</div>
+              <div class="blue-inner-thing-2">Some Caption Text</div>
+              <div class="blue-inner-thing-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                officia minima.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="footer"></section>
     <script
