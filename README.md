@@ -1,2 +1,2 @@
-# mfw-day9
-Day 9 Mobile Friendly Websites
+# mfw-day10
+Day 10 Mobile Friendly Websites
